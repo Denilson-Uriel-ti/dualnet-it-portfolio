@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stack Tecnológico | Denilson</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Sora:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="bg-pattern"></div>
+    <div class="bg-grid"></div>
+
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">Denilson.dev</a>
+                <button class="mobile-toggle" onclick="toggleMenu()">☰</button>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="sobre-mi.html">Sobre mí</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="proyectos.html">Proyectos</a></li>
+                    <li><a href="tecnologias.html">Stack</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="content-page">
+        <div class="container">
+            <div class="breadcrumb">
+                <div class="breadcrumb-nav">
+                    <a href="index.html">Inicio</a> / <span>Stack Tecnológico</span>
+                </div>
+            </div>
+
+            <div class="section-header">
+                <div class="section-tag">// Herramientas</div>
+                <h1 class="section-title">Stack Tecnológico</h1>
+                <p class="section-description">Tecnologías y herramientas con las que trabajo</p>
+            </div>
+
+            <div class="services-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));">
+                <div class="service-card">
+                    <h3>🔒 Seguridad</h3>
+                    <ul>
+                        <li>Fortinet / FortiGate</li>
+                        <li>pfSense</li>
+                        <li>FortiDLP</li>
+                        <li>Wireshark</li>
+                        <li>Nmap / Metasploit</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <h3>📹 CCTV & Vigilancia</h3>
+                    <ul>
+                        <li>Hikvision</li>
+                        <li>Dahua</li>
+                        <li>NVR / DVR PoE</li>
+                        <li>Hik-Connect</li>
+                        <li>IVMS-4200</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <h3>💻 Sistemas & Virtualización</h3>
+                    <ul>
+                        <li>Windows Server</li>
+                        <li>Linux (Ubuntu, CentOS)</li>
+                        <li>Active Directory</li>
+                        <li>Proxmox VE</li>
+                        <li>Docker</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <h3>📊 Monitoreo & Automatización</h3>
+                    <ul>
+                        <li>Zabbix</li>
+                        <li>n8n</li>
+                        <li>Ansible</li>
+                        <li>PowerShell</li>
+                        <li>Bash Scripting</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <h3>🧠 Data & ML</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>Scikit-learn</li>
+                        <li>XGBoost</li>
+                        <li>Pandas / NumPy</li>
+                        <li>Jupyter Notebooks</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <h3>🌐 Redes</h3>
+                    <ul>
+                        <li>Cisco / MikroTik</li>
+                        <li>VLANs / VPN</li>
+                        <li>SNMP</li>
+                        <li>DNS / DHCP</li>
+                        <li>Cableado estructurado</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Denilson - Técnico en TI & Ciberseguridad. Todos los derechos reservados.</p>
+            <div class="social-links">
+                <a href="https://github.com/denilson-tech" target="_blank">⚡</a>
+                <a href="https://linkedin.com/in/denilson-tech" target="_blank">💼</a>
+                <a href="mailto:denilson.tech@gmail.com">✉️</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

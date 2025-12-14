@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyectos | Denilson</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Sora:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="bg-pattern"></div>
+    <div class="bg-grid"></div>
+
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">Denilson.dev</a>
+                <button class="mobile-toggle" onclick="toggleMenu()">☰</button>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="sobre-mi.html">Sobre mí</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="proyectos.html">Proyectos</a></li>
+                    <li><a href="tecnologias.html">Stack</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="content-page">
+        <div class="container">
+            <div class="breadcrumb">
+                <div class="breadcrumb-nav">
+                    <a href="index.html">Inicio</a> / <span>Proyectos</span>
+                </div>
+            </div>
+
+            <div class="section-header">
+                <div class="section-tag">// Portafolio</div>
+                <h1 class="section-title">Proyectos Realizados</h1>
+                <p class="section-description">Casos reales de implementaciones exitosas</p>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Proyecto 1: CCTV -->
+                <a href="proyecto-cctv.html" class="project-card-link">
+                    <div class="project-card">
+                        <div class="project-image">📷</div>
+                        <div class="project-content">
+                            <h3>Sistema CCTV - Local Comercial</h3>
+                            <p>Instalación completa de 8 cámaras IP Hikvision 4MP con NVR, almacenamiento de 2TB y acceso móvil 24/7. Reducción de 90% en robos.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Hikvision</span>
+                                <span class="tech-tag">NVR PoE</span>
+                                <span class="tech-tag">Hik-Connect</span>
+                                <span class="tech-tag">Cat6</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Proyecto 2: Firewall -->
+                <a href="proyecto-firewall.html" class="project-card-link">
+                    <div class="project-card">
+                        <div class="project-image">🔥</div>
+                        <div class="project-content">
+                            <h3>Firewall Empresarial - Oficinas</h3>
+                            <p>Implementación de FortiGate con políticas de seguridad, filtrado web, IPS/IDS y VPN SSL para trabajo remoto. Reducción de 90% en incidentes.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Fortinet</span>
+                                <span class="tech-tag">FortiGate</span>
+                                <span class="tech-tag">VPN SSL</span>
+                                <span class="tech-tag">IPS/IDS</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Proyecto 3: Bot WhatsApp -->
+                <a href="proyecto-automatizacion.html" class="project-card-link">
+                    <div class="project-card">
+                        <div class="project-image">🤖</div>
+                        <div class="project-content">
+                            <h3>Bot WhatsApp - PyME</h3>
+                            <p>Bot automatizado con n8n que responde preguntas frecuentes, registra pedidos y notifica al equipo. Tiempo de respuesta de 2 horas a 30 segundos.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">n8n</span>
+                                <span class="tech-tag">WhatsApp API</span>
+                                <span class="tech-tag">Webhook</span>
+                                <span class="tech-tag">Docker</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Proyecto 4: Monitoreo Zabbix -->
+                <div class="project-card">
+                    <div class="project-image">📊</div>
+                    <div class="project-content">
+                        <h3>Sistema de Monitoreo de Red</h3>
+                        <p>Implementación de Zabbix para monitorear 40+ dispositivos con alertas automáticas vía email/Telegram y dashboards en tiempo real.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Zabbix</span>
+                            <span class="tech-tag">SNMP</span>
+                            <span class="tech-tag">Telegram Bot</span>
+                            <span class="tech-tag">Linux</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 5: Active Directory -->
+                <div class="project-card">
+                    <div class="project-image">🏢</div>
+                    <div class="project-content">
+                        <h3>Implementación Active Directory</h3>
+                        <p>AD con GPO para 50+ equipos, despliegue masivo de software y políticas de seguridad centralizadas. Control total desde consola única.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Active Directory</span>
+                            <span class="tech-tag">GPO</span>
+                            <span class="tech-tag">Windows Server</span>
+                            <span class="tech-tag">PowerShell</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 6: ML DDoS Detection -->
+                <div class="project-card">
+                    <div class="project-image">🛡️</div>
+                    <div class="project-content">
+                        <h3>Detección de DDoS con ML</h3>
+                        <p>Modelo de Machine Learning con Random Forest y XGBoost sobre dataset Bot-IoT, logrando 98% de precisión en detección de tráfico malicioso.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Scikit-learn</span>
+                            <span class="tech-tag">XGBoost</span>
+                            <span class="tech-tag">Jupyter</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 4rem;">
+                <div class="cta-box" style="max-width: 600px; margin: 0 auto;">
+                    <h2>¿Tienes un proyecto en mente?</h2>
+                    <p>Cuéntame sobre tu necesidad y te daré una cotización personalizada</p>
+                    <a href="contacto.html" class="btn btn-primary">Contactar ahora</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Denilson - Técnico en TI & Ciberseguridad. Todos los derechos reservados.</p>
+            <div class="social-links">
+                <a href="https://github.com/denilson-tech" target="_blank">⚡</a>
+                <a href="https://linkedin.com/in/denilson-tech" target="_blank">💼</a>
+                <a href="mailto:denilson.tech@gmail.com">✉️</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

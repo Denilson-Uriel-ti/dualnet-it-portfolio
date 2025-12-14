@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios | Denilson</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Sora:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="bg-pattern"></div>
+    <div class="bg-grid"></div>
+
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">Denilson.dev</a>
+                <button class="mobile-toggle" onclick="toggleMenu()">☰</button>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="sobre-mi.html">Sobre mí</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="proyectos.html">Proyectos</a></li>
+                    <li><a href="tecnologias.html">Stack</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="content-page">
+        <div class="container">
+            <div class="breadcrumb">
+                <div class="breadcrumb-nav">
+                    <a href="index.html">Inicio</a> / <span>Servicios</span>
+                </div>
+            </div>
+
+            <div class="section-header">
+                <div class="section-tag">// Servicios</div>
+                <h1 class="section-title">¿En qué puedo ayudarte?</h1>
+                <p class="section-description">Soluciones profesionales adaptadas a tus necesidades</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <span class="service-icon">🖥️</span>
+                    <h3>Soporte Técnico TI</h3>
+                    <p>Mantenimiento, reparación y optimización de equipos</p>
+                    <ul>
+                        <li>Instalación y configuración de software</li>
+                        <li>Limpieza y mantenimiento preventivo</li>
+                        <li>Diagnóstico y solución de problemas</li>
+                        <li>Actualización de hardware</li>
+                        <li>Respaldo y recuperación de datos</li>
+                    </ul>
+                    <span class="service-tag">Para hogares y oficinas</span>
+                </div>
+
+                <div class="service-card">
+                    <span class="service-icon">📷</span>
+                    <h3>Instalación CCTV</h3>
+                    <p>Sistemas de vigilancia profesionales con acceso remoto</p>
+                    <ul>
+                        <li>Cámaras IP y análogas (Hikvision, Dahua)</li>
+                        <li>NVR/DVR con almacenamiento local</li>
+                        <li>Acceso móvil 24/7</li>
+                        <li>Configuración de alertas inteligentes</li>
+                        <li>Integración con alarmas</li>
+                    </ul>
+                    <span class="service-tag">Ideal para negocios</span>
+                </div>
+
+                <div class="service-card">
+                    <span class="service-icon">🔐</span>
+                    <h3>Seguridad Informática</h3>
+                    <p>Protección de datos y prevención de amenazas</p>
+                    <ul>
+                        <li>Configuración de firewalls (Fortinet, pfSense)</li>
+                        <li>Auditorías de seguridad</li>
+                        <li>Políticas de respaldo y recuperación</li>
+                        <li>Monitoreo de red en tiempo real</li>
+                        <li>Implementación de FortiDLP</li>
+                    </ul>
+                    <span class="service-tag">Empresarial</span>
+                </div>
+
+                <div class="service-card">
+                    <span class="service-icon">🌐</span>
+                    <h3>Redes & Infraestructura</h3>
+                    <p>Diseño e implementación de redes empresariales</p>
+                    <ul>
+                        <li>Cableado estructurado Cat6/Cat6a</li>
+                        <li>Configuración de switches y routers</li>
+                        <li>VLANs y segmentación de red</li>
+                        <li>Wi-Fi empresarial</li>
+                        <li>VPN para trabajo remoto</li>
+                    </ul>
+                    <span class="service-tag">Escalable</span>
+                </div>
+
+                <div class="service-card">
+                    <span class="service-icon">🤖</span>
+                    <h3>Automatización</h3>
+                    <p>Optimiza procesos repetitivos con tecnología</p>
+                    <ul>
+                        <li>Workflows con n8n</li>
+                        <li>Integraciones WhatsApp Business</li>
+                        <li>Scripts personalizados (Python/Bash)</li>
+                        <li>Monitoreo automatizado</li>
+                        <li>Bots y chatbots</li>
+                    </ul>
+                    <span class="service-tag">Ahorra tiempo</span>
+                </div>
+
+                <div class="service-card">
+                    <span class="service-icon">☁️</span>
+                    <h3>Servidores & Virtualización</h3>
+                    <p>Infraestructura escalable y confiable</p>
+                    <ul>
+                        <li>Configuración de servidores Linux/Windows</li>
+                        <li>Virtualización con Proxmox</li>
+                        <li>Contenedores Docker</li>
+                        <li>Monitoreo con Zabbix</li>
+                        <li>Active Directory y GPO</li>
+                    </ul>
+                    <span class="service-tag">Alta disponibilidad</span>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 4rem;">
+                <div class="cta-box" style="max-width: 700px; margin: 0 auto;">
+                    <h2>¿No encuentras el servicio que necesitas?</h2>
+                    <p>Contáctame y platiquemos sobre tu proyecto específico</p>
+                    <a href="contacto.html" class="btn btn-primary">Solicitar Cotización</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Denilson - Técnico en TI & Ciberseguridad. Todos los derechos reservados.</p>
+            <div class="social-links">
+                <a href="https://github.com/denilson-tech" target="_blank">⚡</a>
+                <a href="https://linkedin.com/in/denilson-tech" target="_blank">💼</a>
+                <a href="mailto:denilson.tech@gmail.com">✉️</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Denilson</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Sora:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="bg-pattern"></div>
+    <div class="bg-grid"></div>
+
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">Denilson.dev</a>
+                <button class="mobile-toggle" onclick="toggleMenu()">☰</button>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="sobre-mi.html">Sobre mí</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="proyectos.html">Proyectos</a></li>
+                    <li><a href="tecnologias.html">Stack</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="content-page">
+        <div class="container">
+            <div class="breadcrumb">
+                <div class="breadcrumb-nav">
+                    <a href="index.html">Inicio</a> / <span>Contacto</span>
+                </div>
+            </div>
+
+            <div class="section-header">
+                <div class="section-tag">// Contacto</div>
+                <h1 class="section-title">¿Listo para comenzar?</h1>
+                <p class="section-description">Contáctame para cotizar tu proyecto</p>
+            </div>
+
+            <div class="content-box" style="max-width: 800px;">
+                <div class="services-grid" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); margin-bottom: 3rem;">
+                    <div class="service-card" style="text-align: center;">
+                        <span class="service-icon">📱</span>
+                        <h3>WhatsApp</h3>
+                        <p><a href="https://wa.me/524444000000?text=Hola%20Denilson,%20vengo%20de%20tu%20portafolio" target="_blank" style="color: var(--accent); text-decoration: none;">+52 444 400 0000</a></p>
+                    </div>
+                    <div class="service-card" style="text-align: center;">
+                        <span class="service-icon">✉️</span>
+                        <h3>Email</h3>
+                        <p><a href="mailto:denilson.tech@gmail.com" style="color: var(--accent); text-decoration: none;">denilson.tech@gmail.com</a></p>
+                    </div>
+                    <div class="service-card" style="text-align: center;">
+                        <span class="service-icon">💼</span>
+                        <h3>LinkedIn</h3>
+                        <p><a href="https://linkedin.com/in/denilson-tech" target="_blank" style="color: var(--accent); text-decoration: none;">Ver perfil</a></p>
+                    </div>
+                </div>
+
+                <div style="background: rgba(0, 255, 159, 0.05); border: 1px solid var(--border); border-radius: 12px; padding: 2rem; text-align: center;">
+                    <h3 style="margin-bottom: 1rem; color: var(--accent);">📍 Ubicación & Horarios</h3>
+                    <p><strong>San Luis Potosí, México</strong></p>
+                    <p style="color: var(--text-dim);">Soporte presencial y remoto</p>
+                    <p style="color: var(--text-dim);">⏰ Disponible: Fines de semana y horario flexible entre semana</p>
+                    <p style="margin-top: 1.5rem; color: var(--accent);">💡 Respuesta típica: 1-2 horas</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Denilson - Técnico en TI & Ciberseguridad. Todos los derechos reservados.</p>
+            <div class="social-links">
+                <a href="https://github.com/denilson-tech" target="_blank">⚡</a>
+                <a href="https://linkedin.com/in/denilson-tech" target="_blank">💼</a>
+                <a href="mailto:denilson.tech@gmail.com">✉️</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

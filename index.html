@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Denilson - Especialista en TI, Ciberseguridad, Redes y CCTV. Soluciones profesionales para hogares y negocios.">
+    <title>Denilson - Técnico en TI & Ciberseguridad</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Sora:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="bg-pattern"></div>
+    <div class="bg-grid"></div>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">Denilson.dev</a>
+                <button class="mobile-toggle" onclick="toggleMenu()">☰</button>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="sobre-mi.html">Sobre mí</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="proyectos.html">Proyectos</a></li>
+                    <li><a href="tecnologias.html">Stack</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <span class="hero-tag">💼 Disponible para proyectos</span>
+                <h1>Técnico en TI & Especialista en Ciberseguridad</h1>
+                <p>Soluciones profesionales en <span class="highlight">CCTV</span>, <span class="highlight">Redes</span>, <span class="highlight">Seguridad Informática</span> y <span class="highlight">Automatización</span> para hogares y negocios.</p>
+                <div class="cta-buttons">
+                    <a href="https://wa.me/524444000000?text=Hola%20Denilson,%20vengo%20de%20tu%20portafolio" class="btn btn-primary" target="_blank">
+                        📱 WhatsApp
+                    </a>
+                    <a href="proyectos.html" class="btn btn-secondary">
+                        🔧 Ver Proyectos
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Overview -->
+    <section class="overview">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">3+</div>
+                    <div class="stat-label">Años de experiencia</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Proyectos completados</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-label">Soporte disponible</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Clientes satisfechos</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Preview -->
+    <section class="services-preview">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-tag">// Servicios principales</div>
+                <h2 class="section-title">¿En qué puedo ayudarte?</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <span class="service-icon">🖥️</span>
+                    <h3>Soporte Técnico TI</h3>
+                    <p>Mantenimiento, reparación y optimización de equipos</p>
+                </div>
+                <div class="service-card">
+                    <span class="service-icon">📷</span>
+                    <h3>Instalación CCTV</h3>
+                    <p>Sistemas de vigilancia con acceso remoto</p>
+                </div>
+                <div class="service-card">
+                    <span class="service-icon">🔐</span>
+                    <h3>Seguridad Informática</h3>
+                    <p>Protección de datos y prevención de amenazas</p>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 2rem;">
+                <a href="servicios.html" class="btn btn-secondary">Ver todos los servicios</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Preview -->
+    <section class="projects-preview">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-tag">// Proyectos destacados</div>
+                <h2 class="section-title">Casos de Éxito</h2>
+            </div>
+            <div class="projects-grid">
+                <a href="proyecto-cctv.html" class="project-card-link">
+                    <div class="project-card">
+                        <div class="project-image">📷</div>
+                        <div class="project-content">
+                            <h3>Sistema CCTV - Local Comercial</h3>
+                            <p>8 cámaras IP con acceso móvil 24/7</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Hikvision</span>
+                                <span class="tech-tag">NVR PoE</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="proyecto-firewall.html" class="project-card-link">
+                    <div class="project-card">
+                        <div class="project-image">🔥</div>
+                        <div class="project-content">
+                            <h3>Firewall Empresarial</h3>
+                            <p>FortiGate con VPN y detección de intrusos</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Fortinet</span>
+                                <span class="tech-tag">IPS/IDS</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="proyecto-automatizacion.html" class="project-card-link">
+                    <div class="project-card">
+                        <div class="project-image">🤖</div>
+                        <div class="project-content">
+                            <h3>Bot WhatsApp</h3>
+                            <p>Automatización de respuestas para PyME</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">n8n</span>
+                                <span class="tech-tag">WhatsApp API</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div style="text-align: center; margin-top: 2rem;">
+                <a href="proyectos.html" class="btn btn-secondary">Ver todos los proyectos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-box">
+                <h2>¿Listo para comenzar tu proyecto?</h2>
+                <p>Contáctame para una cotización gratuita</p>
+                <a href="contacto.html" class="btn btn-primary">Contactar ahora</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Denilson - Técnico en TI & Ciberseguridad. Todos los derechos reservados.</p>
+            <div class="social-links">
+                <a href="https://github.com/denilson-tech" target="_blank" title="GitHub">⚡</a>
+                <a href="https://linkedin.com/in/denilson-tech" target="_blank" title="LinkedIn">💼</a>
+                <a href="mailto:denilson.tech@gmail.com" title="Email">✉️</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Mí - Denilson</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Sora:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="bg-pattern"></div>
+    <div class="bg-grid"></div>
+
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">Denilson.dev</a>
+                <button class="mobile-toggle" onclick="toggleMenu()">☰</button>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="sobre-mi.html">Sobre mí</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="proyectos.html">Proyectos</a></li>
+                    <li><a href="tecnologias.html">Stack</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="content-page">
+        <div class="container">
+            <div class="breadcrumb">
+                <div class="breadcrumb-nav">
+                    <a href="index.html">Inicio</a> / <span>Sobre mí</span>
+                </div>
+            </div>
+
+            <div class="section-header">
+                <div class="section-tag">// Sobre mí</div>
+                <h1 class="section-title">Experiencia & Trayectoria</h1>
+            </div>
+
+            <div class="content-box">
+                <h2>👨‍💻 ¿Quién soy?</h2>
+                <p>Soy <strong>Denilson</strong>, técnico especializado en <span class="highlight">soporte TI, redes, CCTV y seguridad informática</span> con más de 3 años de experiencia implementando soluciones tecnológicas para hogares y empresas.</p>
+                
+                <p>Actualmente trabajo como <span class="highlight">Practicante TISec en SiiX EMS Mexico</span>, donde me encargo de:</p>
+                <ul>
+                    <li>Implementaciones de seguridad empresarial (FortiDLP, políticas de seguridad)</li>
+                    <li>Administración de servidores Windows/Linux</li>
+                    <li>Gestión de Active Directory y Group Policy Objects</li>
+                    <li>Monitoreo de infraestructura y respuesta a incidentes</li>
+                </ul>
+
+                <h2>🎓 Formación Académica</h2>
+                <p>Estudiante de <strong>Ingeniería en Sistemas/Tecnologías</strong> con especialización en:</p>
+                <ul>
+                    <li><strong>Big Data Analytics</strong> - Análisis de grandes volúmenes de datos</li>
+                    <li><strong>Ciberseguridad</strong> - Detección de amenazas y defensa de infraestructura</li>
+                    <li><strong>Machine Learning</strong> - Aplicaciones de IA en seguridad informática</li>
+                </ul>
+
+                <h2>💼 Experiencia Profesional</h2>
+                
+                <h3>Practicante TISec | SiiX EMS Mexico</h3>
+                <p><em>Actual</em></p>
+                <ul>
+                    <li>Implementación de FortiDLP con análisis de 50+ políticas de seguridad</li>
+                    <li>Creación de documentación técnica bilingüe (ES/EN)</li>
+                    <li>Despliegue masivo de software vía GPO en entornos empresariales</li>
+                    <li>Administración de servidores y resolución de incidentes de AD</li>
+                </ul>
+
+                <h3>Técnico Independiente en TI</h3>
+                <p><em>2021 - Actual</em></p>
+                <ul>
+                    <li>Instalación de sistemas CCTV (Hikvision, Dahua) para comercios</li>
+                    <li>Configuración de firewalls (Fortinet, pfSense) para PyMEs</li>
+                    <li>Automatización de procesos con n8n y WhatsApp API</li>
+                    <li>Soporte técnico remoto y presencial</li>
+                </ul>
+
+                <h2>🏆 Proyectos Destacados</h2>
+                <ul>
+                    <li><strong>Sistema de Monitoreo Empresarial:</strong> Desarrollo de agentes multi-plataforma con Docker para inventario de hardware y monitoreo en tiempo real</li>
+                    <li><strong>Detección de DDoS con ML:</strong> Modelo de Machine Learning (Random Forest, XGBoost) con 98% de precisión usando dataset Bot-IoT</li>
+                    <li><strong>Implementación AD:</strong> Despliegue de Active Directory para empresa con 50+ equipos, incluyendo políticas de seguridad centralizadas</li>
+                    <li><strong>Análisis FortiDLP:</strong> Revisión exhaustiva de políticas de prevención de pérdida de datos con mensajes de alerta bilingües</li>
+                </ul>
+
+                <h2>🎯 Especialidades</h2>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon">🔒</div>
+                        <h3>Seguridad</h3>
+                        <p>Fortinet, pfSense, FortiDLP, auditorías de seguridad</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">📹</div>
+                        <h3>CCTV</h3>
+                        <p>Hikvision, Dahua, NVR, acceso remoto móvil</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">🌐</div>
+                        <h3>Redes</h3>
+                        <p>VLANs, VPN, cableado estructurado, Wi-Fi empresarial</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">🤖</div>
+                        <h3>Automatización</h3>
+                        <p>n8n, Docker, scripts Python/Bash, integr aciones API</p>
+                    </div>
+                </div>
+
+                <h2>📚 Aprendizaje Continuo</h2>
+                <p>Me mantengo actualizado constantemente en:</p>
+                <ul>
+                    <li>Certificaciones de ciberseguridad (Fortinet, Cisco)</li>
+                    <li>Nuevas tecnologías de virtualización (Proxmox, Docker)</li>
+                    <li>Machine Learning aplicado a la detección de amenazas</li>
+                    <li>Mejores prácticas de DevSecOps y automatización</li>
+                </ul>
+
+                <h2>🌟 ¿Por qué trabajar conmigo?</h2>
+                <ul>
+                    <li><strong>Experiencia práctica:</strong> No solo teoría, sino soluciones reales implementadas</li>
+                    <li><strong>Comunicación clara:</strong> Explico conceptos técnicos de forma comprensible</li>
+                    <li><strong>Documentación profesional:</strong> Todo proyecto incluye documentación detallada</li>
+                    <li><strong>Soporte continuo:</strong> Disponible para resolver dudas post-implementación</li>
+                    <li><strong>Enfoque en resultados:</strong> Me enfoco en resolver tu problema específico</li>
+                </ul>
+
+                <div style="text-align: center; margin-top: 3rem;">
+                    <a href="cv-denilson.pdf" download class="btn btn-secondary" style="margin-right: 1rem;">📄 Descargar CV</a>
+                    <a href="contacto.html" class="btn btn-primary">💬 Contáctame</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Denilson - Técnico en TI & Ciberseguridad. Todos los derechos reservados.</p>
+            <div class="social-links">
+                <a href="https://github.com/denilson-tech" target="_blank">⚡</a>
+                <a href="https://linkedin.com/in/denilson-tech" target="_blank">💼</a>
+                <a href="mailto:denilson.tech@gmail.com">✉️</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
